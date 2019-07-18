@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\run]
+@="Runner"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\run\DefaultIcon]
+@="C:\\runner\\runner-win.exe"
+
+[HKEY_CLASSES_ROOT\run\shell]
+
+[HKEY_CLASSES_ROOT\run\shell\open]
+
+[HKEY_CLASSES_ROOT\run\shell\open\command]
+@="C:\\runner\\runner-win.exe %1"
